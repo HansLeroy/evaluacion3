@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>myconstruccion</groupId>
   <artifactId>com.app</artifactId>
@@ -28,6 +30,14 @@
         <artifactId>jstl</artifactId>
         <version>1.2</version>
     </dependency>
-</dependencies>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0qkikxfuo74d-artifactory-primary-0-releases</name>
+        <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-release</url>
+    </repository>
+  </distributionManagement>
 
 </project>
