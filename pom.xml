@@ -34,13 +34,13 @@
 
   <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>a0qkikxfuo74d-artifactory-primary-0-releases</name>
+        <id>central</id> <!-- Debe coincidir con el ID en settings.xml -->
+        <name>Artifactory Releases</name>
         <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-release</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0qkikxfuo74d-artifactory-primary-0-snapshots</name>
+        <id>snapshots</id> <!-- Debe coincidir con el ID en settings.xml -->
+        <name>Artifactory Snapshots</name>
         <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
