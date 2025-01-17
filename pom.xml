@@ -39,8 +39,8 @@
         <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-release</url>
     </repository>
     <snapshotRepository>
-        <id>central</id> <!-- Coincide con el ID en settings.xml -->
-        <name>JFrog Artifactory Snapshots</name>
+        <id>snapshots</id>
+        <name>a0qkikxfuo74d-artifactory-primary-0-snapshots</name>
         <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
