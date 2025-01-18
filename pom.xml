@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>myconstruccion</groupId>
   <artifactId>com.app</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
   <name>login myconstruccion</name>
   
@@ -38,11 +38,6 @@
         <name>Artifactory Releases</name>
         <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-release</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id> <!-- Debe coincidir con el ID en settings.xml -->
-        <name>Artifactory Snapshots</name>
-        <url>https://trialj2o0rx.jfrog.io/artifactory/evaluacion3-libs-snapshot</url>
-    </snapshotRepository>
   </distributionManagement>
 
 </project>
